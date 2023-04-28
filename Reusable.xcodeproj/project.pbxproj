@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3EA14129FB8DDE007C42AC /* Email_PIN.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE3EA14029FB8DDE007C42AC /* Email_PIN.xib */; };
+		AEB3B44E29FB942900A7B38C /* Google_Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB3B44D29FB942900A7B38C /* Google_Authenticator.swift */; };
+		AEB3B45029FB943400A7B38C /* Google_Authenticator.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB3B44F29FB943400A7B38C /* Google_Authenticator.xib */; };
+		AEB3B45329FB952200A7B38C /* _6DigitPIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB3B45229FB952200A7B38C /* _6DigitPIN.swift */; };
+		AEB3B45529FB954000A7B38C /* _6DigitPIN.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB3B45429FB954000A7B38C /* _6DigitPIN.xib */; };
+		AEB3B45829FB95D300A7B38C /* AuthenticationSuccessfulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB3B45629FB95D300A7B38C /* AuthenticationSuccessfulViewController.swift */; };
+		AEB3B45929FB95D300A7B38C /* AuthenticationSuccessfulViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB3B45729FB95D300A7B38C /* AuthenticationSuccessfulViewController.xib */; };
+		AECF8E7A29F947CD008751EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8E7929F947CD008751EA /* AppDelegate.swift */; };
+		AECF8E7C29F947CD008751EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8E7B29F947CD008751EA /* SceneDelegate.swift */; };
+		AECF8E8329F947CE008751EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECF8E8229F947CE008751EA /* Assets.xcassets */; };
+		AECF8E8629F947CE008751EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECF8E8429F947CE008751EA /* LaunchScreen.storyboard */; };
+		AECF8E8F29F947EB008751EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8E8D29F947EB008751EA /* MainViewController.swift */; };
+		AECF8E9029F947EB008751EA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECF8E8E29F947EB008751EA /* MainViewController.xib */; };
+		AECF8E9C29F95320008751EA /* Username_Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8E9B29F95320008751EA /* Username_Password.swift */; };
+		AECF8E9E29F95333008751EA /* Username_Password.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECF8E9D29F95333008751EA /* Username_Password.xib */; };
+		AEE17F0629FB7B7B00D5B374 /* EmailAddress_Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE17F0529FB7B7B00D5B374 /* EmailAddress_Password.swift */; };
+		AEE17F0829FB7B8F00D5B374 /* EmailAddress_Password.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE17F0729FB7B8F00D5B374 /* EmailAddress_Password.xib */; };
+		AEE17F0D29FB852B00D5B374 /* Mobile_PIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE17F0C29FB852B00D5B374 /* Mobile_PIN.swift */; };
+		AEE17F0F29FB855000D5B374 /* Mobile_PIN.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE17F0E29FB855000D5B374 /* Mobile_PIN.xib */; };
+		AEFB3E6429FA2AA100ED93F1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB3E6329FA2AA100ED93F1 /* BaseViewController.swift */; };
+		AEFB3E6729FA417400ED93F1 /* Mobile_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB3E6629FA417400ED93F1 /* Mobile_Number.swift */; };
+		AEFB3E6929FA418C00ED93F1 /* Mobile_Number.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEFB3E6829FA418C00ED93F1 /* Mobile_Number.xib */; };
+		AEFB3E6D29FA4A8800ED93F1 /* Email_PIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB3E6C29FA4A8800ED93F1 /* Email_PIN.swift */; };
+		AEFB3E6F29FA5A3400ED93F1 /* Email_Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB3E6E29FA5A3400ED93F1 /* Email_Address.swift */; };
+		AEFB3E7129FA5A6900ED93F1 /* Email_Address.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEFB3E7029FA5A6900ED93F1 /* Email_Address.xib */; };
+		AEFB3E7429FA7C7100ED93F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB3E7229FA7C7100ED93F1 /* ViewController.swift */; };
+		AEFB3E7529FA7C7100ED93F1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEFB3E7329FA7C7100ED93F1 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE3EA14029FB8DDE007C42AC /* Email_PIN.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Email_PIN.xib; sourceTree = "<group>"; };
+		AEB3B44D29FB942900A7B38C /* Google_Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Authenticator.swift; sourceTree = "<group>"; };
+		AEB3B44F29FB943400A7B38C /* Google_Authenticator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Google_Authenticator.xib; sourceTree = "<group>"; };
+		AEB3B45229FB952200A7B38C /* _6DigitPIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _6DigitPIN.swift; sourceTree = "<group>"; };
+		AEB3B45429FB954000A7B38C /* _6DigitPIN.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = _6DigitPIN.xib; sourceTree = "<group>"; };
+		AEB3B45629FB95D300A7B38C /* AuthenticationSuccessfulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSuccessfulViewController.swift; sourceTree = "<group>"; };
+		AEB3B45729FB95D300A7B38C /* AuthenticationSuccessfulViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationSuccessfulViewController.xib; sourceTree = "<group>"; };
+		AECF8E7629F947CD008751EA /* Reusable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reusable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECF8E7929F947CD008751EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AECF8E7B29F947CD008751EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AECF8E8229F947CE008751EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AECF8E8529F947CE008751EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AECF8E8729F947CE008751EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECF8E8D29F947EB008751EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AECF8E8E29F947EB008751EA /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AECF8E9B29F95320008751EA /* Username_Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Username_Password.swift; sourceTree = "<group>"; };
+		AECF8E9D29F95333008751EA /* Username_Password.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Username_Password.xib; sourceTree = "<group>"; };
+		AEE17F0529FB7B7B00D5B374 /* EmailAddress_Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAddress_Password.swift; sourceTree = "<group>"; };
+		AEE17F0729FB7B8F00D5B374 /* EmailAddress_Password.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmailAddress_Password.xib; sourceTree = "<group>"; };
+		AEE17F0C29FB852B00D5B374 /* Mobile_PIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_PIN.swift; sourceTree = "<group>"; };
+		AEE17F0E29FB855000D5B374 /* Mobile_PIN.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Mobile_PIN.xib; sourceTree = "<group>"; };
+		AEFB3E6329FA2AA100ED93F1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AEFB3E6629FA417400ED93F1 /* Mobile_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Number.swift; sourceTree = "<group>"; };
+		AEFB3E6829FA418C00ED93F1 /* Mobile_Number.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Mobile_Number.xib; sourceTree = "<group>"; };
+		AEFB3E6C29FA4A8800ED93F1 /* Email_PIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email_PIN.swift; sourceTree = "<group>"; };
+		AEFB3E6E29FA5A3400ED93F1 /* Email_Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email_Address.swift; sourceTree = "<group>"; };
+		AEFB3E7029FA5A6900ED93F1 /* Email_Address.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Email_Address.xib; sourceTree = "<group>"; };
+		AEFB3E7229FA7C7100ED93F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEFB3E7329FA7C7100ED93F1 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AECF8E7329F947CD008751EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB3B44C29FB93D400A7B38C /* GoogleAuthenticators */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3B44D29FB942900A7B38C /* Google_Authenticator.swift */,
+				AEB3B44F29FB943400A7B38C /* Google_Authenticator.xib */,
+			);
+			path = GoogleAuthenticators;
+			sourceTree = "<group>";
+		};
+		AEB3B45129FB94D500A7B38C /* 6DigitPIN */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3B45229FB952200A7B38C /* _6DigitPIN.swift */,
+				AEB3B45429FB954000A7B38C /* _6DigitPIN.xib */,
+			);
+			path = 6DigitPIN;
+			sourceTree = "<group>";
+		};
+		AECF8E6D29F947CD008751EA = {
+			isa = PBXGroup;
+			children = (
+				AECF8E7829F947CD008751EA /* Reusable */,
+				AECF8E7729F947CD008751EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AECF8E7729F947CD008751EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AECF8E7629F947CD008751EA /* Reusable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AECF8E7829F947CD008751EA /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				AECF8E7929F947CD008751EA /* AppDelegate.swift */,
+				AECF8E7B29F947CD008751EA /* SceneDelegate.swift */,
+				AECF8E8D29F947EB008751EA /* MainViewController.swift */,
+				AECF8E8E29F947EB008751EA /* MainViewController.xib */,
+				AEFB3E7229FA7C7100ED93F1 /* ViewController.swift */,
+				AEFB3E7329FA7C7100ED93F1 /* ViewController.xib */,
+				AEFB3E6529FA413A00ED93F1 /* CustomView */,
+				AECF8E8229F947CE008751EA /* Assets.xcassets */,
+				AECF8E8429F947CE008751EA /* LaunchScreen.storyboard */,
+				AECF8E8729F947CE008751EA /* Info.plist */,
+				AEFB3E6329FA2AA100ED93F1 /* BaseViewController.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		AEE17F0929FB831400D5B374 /* UsernamePassword */ = {
+			isa = PBXGroup;
+			children = (
+				AECF8E9B29F95320008751EA /* Username_Password.swift */,
+				AECF8E9D29F95333008751EA /* Username_Password.xib */,
+			);
+			path = UsernamePassword;
+			sourceTree = "<group>";
+		};
+		AEE17F0A29FB832E00D5B374 /* EmailPassword */ = {
+			isa = PBXGroup;
+			children = (
+				AEE17F0529FB7B7B00D5B374 /* EmailAddress_Password.swift */,
+				AEE17F0729FB7B8F00D5B374 /* EmailAddress_Password.xib */,
+			);
+			path = EmailPassword;
+			sourceTree = "<group>";
+		};
+		AEE17F0B29FB84F700D5B374 /* MobileNumber */ = {
+			isa = PBXGroup;
+			children = (
+				AEFB3E6629FA417400ED93F1 /* Mobile_Number.swift */,
+				AEFB3E6829FA418C00ED93F1 /* Mobile_Number.xib */,
+			);
+			path = MobileNumber;
+			sourceTree = "<group>";
+		};
+		AEE17F1029FB8A8E00D5B374 /* MobilePIN */ = {
+			isa = PBXGroup;
+			children = (
+				AEE17F0C29FB852B00D5B374 /* Mobile_PIN.swift */,
+				AEE17F0E29FB855000D5B374 /* Mobile_PIN.xib */,
+			);
+			path = MobilePIN;
+			sourceTree = "<group>";
+		};
+		AEE17F1129FB8C2000D5B374 /* EmailAddress */ = {
+			isa = PBXGroup;
+			children = (
+				AEFB3E6E29FA5A3400ED93F1 /* Email_Address.swift */,
+				AEFB3E7029FA5A6900ED93F1 /* Email_Address.xib */,
+			);
+			path = EmailAddress;
+			sourceTree = "<group>";
+		};
+		AEE17F1229FB8D7A00D5B374 /* EmailPIN */ = {
+			isa = PBXGroup;
+			children = (
+				AEFB3E6C29FA4A8800ED93F1 /* Email_PIN.swift */,
+				AE3EA14029FB8DDE007C42AC /* Email_PIN.xib */,
+			);
+			path = EmailPIN;
+			sourceTree = "<group>";
+		};
+		AEFB3E6529FA413A00ED93F1 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				AEE17F0929FB831400D5B374 /* UsernamePassword */,
+				AEE17F0A29FB832E00D5B374 /* EmailPassword */,
+				AEE17F0B29FB84F700D5B374 /* MobileNumber */,
+				AEE17F1029FB8A8E00D5B374 /* MobilePIN */,
+				AEE17F1129FB8C2000D5B374 /* EmailAddress */,
+				AEE17F1229FB8D7A00D5B374 /* EmailPIN */,
+				AEB3B44C29FB93D400A7B38C /* GoogleAuthenticators */,
+				AEB3B45129FB94D500A7B38C /* 6DigitPIN */,
+				AEB3B45629FB95D300A7B38C /* AuthenticationSuccessfulViewController.swift */,
+				AEB3B45729FB95D300A7B38C /* AuthenticationSuccessfulViewController.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECF8E7529F947CD008751EA /* Reusable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECF8E8A29F947CE008751EA /* Build configuration list for PBXNativeTarget "Reusable" */;
+			buildPhases = (
+				AECF8E7229F947CD008751EA /* Sources */,
+				AECF8E7329F947CD008751EA /* Frameworks */,
+				AECF8E7429F947CD008751EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reusable;
+			productName = Reusable;
+			productReference = AECF8E7629F947CD008751EA /* Reusable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AECF8E6E29F947CD008751EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AECF8E7529F947CD008751EA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AECF8E7129F947CD008751EA /* Build configuration list for PBXProject "Reusable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AECF8E6D29F947CD008751EA;
+			productRefGroup = AECF8E7729F947CD008751EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AECF8E7529F947CD008751EA /* Reusable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AECF8E7429F947CD008751EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFB3E7529FA7C7100ED93F1 /* ViewController.xib in Resources */,
+				AEFB3E7129FA5A6900ED93F1 /* Email_Address.xib in Resources */,
+				AE3EA14129FB8DDE007C42AC /* Email_PIN.xib in Resources */,
+				AEE17F0F29FB855000D5B374 /* Mobile_PIN.xib in Resources */,
+				AEB3B45529FB954000A7B38C /* _6DigitPIN.xib in Resources */,
+				AEFB3E6929FA418C00ED93F1 /* Mobile_Number.xib in Resources */,
+				AEB3B45029FB943400A7B38C /* Google_Authenticator.xib in Resources */,
+				AEE17F0829FB7B8F00D5B374 /* EmailAddress_Password.xib in Resources */,
+				AEB3B45929FB95D300A7B38C /* AuthenticationSuccessfulViewController.xib in Resources */,
+				AECF8E8629F947CE008751EA /* LaunchScreen.storyboard in Resources */,
+				AECF8E9029F947EB008751EA /* MainViewController.xib in Resources */,
+				AECF8E8329F947CE008751EA /* Assets.xcassets in Resources */,
+				AECF8E9E29F95333008751EA /* Username_Password.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AECF8E7229F947CD008751EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB3B45829FB95D300A7B38C /* AuthenticationSuccessfulViewController.swift in Sources */,
+				AEFB3E7429FA7C7100ED93F1 /* ViewController.swift in Sources */,
+				AEFB3E6729FA417400ED93F1 /* Mobile_Number.swift in Sources */,
+				AEE17F0629FB7B7B00D5B374 /* EmailAddress_Password.swift in Sources */,
+				AECF8E9C29F95320008751EA /* Username_Password.swift in Sources */,
+				AECF8E7A29F947CD008751EA /* AppDelegate.swift in Sources */,
+				AECF8E7C29F947CD008751EA /* SceneDelegate.swift in Sources */,
+				AEFB3E6D29FA4A8800ED93F1 /* Email_PIN.swift in Sources */,
+				AEFB3E6429FA2AA100ED93F1 /* BaseViewController.swift in Sources */,
+				AEB3B45329FB952200A7B38C /* _6DigitPIN.swift in Sources */,
+				AEB3B44E29FB942900A7B38C /* Google_Authenticator.swift in Sources */,
+				AECF8E8F29F947EB008751EA /* MainViewController.swift in Sources */,
+				AEFB3E6F29FA5A3400ED93F1 /* Email_Address.swift in Sources */,
+				AEE17F0D29FB852B00D5B374 /* Mobile_PIN.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AECF8E8429F947CE008751EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AECF8E8529F947CE008751EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AECF8E8829F947CE008751EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AECF8E8929F947CE008751EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AECF8E8B29F947CE008751EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Reusable/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobofilia.Reusable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AECF8E8C29F947CE008751EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Reusable/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mobofilia.Reusable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AECF8E7129F947CD008751EA /* Build configuration list for PBXProject "Reusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECF8E8829F947CE008751EA /* Debug */,
+				AECF8E8929F947CE008751EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AECF8E8A29F947CE008751EA /* Build configuration list for PBXNativeTarget "Reusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECF8E8B29F947CE008751EA /* Debug */,
+				AECF8E8C29F947CE008751EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AECF8E6E29F947CD008751EA /* Project object */;
+}

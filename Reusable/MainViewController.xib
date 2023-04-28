@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Reusable" customModuleProvider="target">
+            <connections>
+                <outlet property="emailView" destination="1cU-Bz-EhU" id="vto-9S-HKs"/>
+                <outlet property="myLableView" destination="8mJ-PX-0Ky" id="2Br-rg-P4V"/>
+                <outlet property="userPasswordView" destination="E8v-K6-OKS" id="e5f-xU-n4W"/>
+                <outlet property="view" destination="aWj-a6-ePi" id="1p0-2O-6tb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aWj-a6-ePi">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mJ-PX-0Ky" customClass="login" customModule="Reusable" customModuleProvider="target">
+                    <rect key="frame" x="10" y="69" width="373" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bm2-0d-59W">
+                            <rect key="frame" x="10" y="10" width="353" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="bm2-0d-59W" firstAttribute="top" secondItem="8mJ-PX-0Ky" secondAttribute="top" constant="10" id="gb6-fY-cak"/>
+                        <constraint firstAttribute="height" constant="70" id="liN-l7-72x"/>
+                        <constraint firstItem="bm2-0d-59W" firstAttribute="leading" secondItem="8mJ-PX-0Ky" secondAttribute="leading" constant="10" id="p7g-wL-r1F"/>
+                        <constraint firstAttribute="trailing" secondItem="bm2-0d-59W" secondAttribute="trailing" constant="10" id="xAq-Fz-24j"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1cU-Bz-EhU" customClass="EmailView" customModule="Reusable" customModuleProvider="target">
+                    <rect key="frame" x="10" y="149" width="373" height="300"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="Ycb-Xy-v76"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8v-K6-OKS" customClass="AuthView" customModule="Reusable" customModuleProvider="target">
+                    <rect key="frame" x="10" y="508" width="373" height="300"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="yWN-rF-UYA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="glp-3q-QBo"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="glp-3q-QBo" firstAttribute="trailing" secondItem="E8v-K6-OKS" secondAttribute="trailing" constant="10" id="2UG-gP-Ole"/>
+                <constraint firstItem="glp-3q-QBo" firstAttribute="bottom" secondItem="E8v-K6-OKS" secondAttribute="bottom" constant="10" id="3Pt-HR-LqW"/>
+                <constraint firstItem="8mJ-PX-0Ky" firstAttribute="leading" secondItem="glp-3q-QBo" secondAttribute="leading" constant="10" id="BsS-ZI-7fO"/>
+                <constraint firstItem="1cU-Bz-EhU" firstAttribute="leading" secondItem="glp-3q-QBo" secondAttribute="leading" constant="10" id="Ifu-HR-Z0x"/>
+                <constraint firstItem="8mJ-PX-0Ky" firstAttribute="top" secondItem="glp-3q-QBo" secondAttribute="top" constant="10" id="Y6N-Pe-Q7p"/>
+                <constraint firstItem="1cU-Bz-EhU" firstAttribute="top" secondItem="8mJ-PX-0Ky" secondAttribute="bottom" constant="10" id="iFd-FP-EXl"/>
+                <constraint firstItem="glp-3q-QBo" firstAttribute="trailing" secondItem="1cU-Bz-EhU" secondAttribute="trailing" constant="10" id="ke0-89-GhW"/>
+                <constraint firstItem="glp-3q-QBo" firstAttribute="trailing" secondItem="8mJ-PX-0Ky" secondAttribute="trailing" constant="10" id="lag-bH-6ZJ"/>
+                <constraint firstItem="E8v-K6-OKS" firstAttribute="leading" secondItem="glp-3q-QBo" secondAttribute="leading" constant="10" id="pcx-ed-Hpm"/>
+            </constraints>
+            <point key="canvasLocation" x="805" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
